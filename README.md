@@ -1,2 +1,2 @@
 # hualie.github.io
-My Personal Homepage.
+My Homepage.
