@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-  <title>Hualie Jiang</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <link href="css/styles.css" rel='stylesheet' type='text/css'>
+	<title>Hualie Jiang's Homepage</title>
+	<meta name="author" content="Hualie Jiang" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 
-
-<body id="page-top" class="index">
-
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 40px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
 
 <script type="text/javascript">
     <!--
@@ -26,80 +33,98 @@
               e.style.display = 'block';
         }
     //-->
-    </script>
+</script>
+
+<link rel="icon" type="image/jpg" href="images/icon.jpg">
 
 
+<body>
 
-<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Hualie Jiang's Homepage</a>
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-card w3-wide w3-black w3-large">
+	<a href="#" class="w3-bar-item w3-button">HUALIE</a>
+	<!-- Right-sided navbar links. Hide them on small screens -->
+	<div class="w3-right w3-hide-small">
+		<a href="#" class="w3-bar-item w3-button">About</a>
+		<a href="#news" class="w3-bar-item w3-button">News</a>
+		<a href="#research" class="w3-bar-item w3-button">Research</a>
+		<a href="#service" class="w3-bar-item w3-button">Service</a>
+		<a href="#teaching" class="w3-bar-item w3-button">Teaching</a>
+	</div>
+	<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+</div>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-black w3-right w3-animate-right" style="display:none;z-index:5;width:120px;right:0" id="mySidebar">
+    <a href="#" class="w3-bar-item w3-button">About</a>
+	<a href="#news" class="w3-bar-item w3-button">News</a>
+	<a href="#research" class="w3-bar-item w3-button">Research</a>
+	<a href="#service" class="w3-bar-item w3-button">Service</a>
+	<a href="#teaching" class="w3-bar-item w3-button">Teaching</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<!-- About Section -->
+<div class="w3-content" style="max-width:1110px;margin-top:60px" id="about">
+	<div class="w3-row w3-center w3-padding-64">
+		<div class="w3-col m3 w3-padding-large">
+			<img src="images/hualie.jpg" class="w3-circle w3-image" border="9" alt="" style="width:100%;max-width:320px">
 		</div>
-		<ul class="nav navbar-nav navbar-right ">
-            <li class="active"><a href="#" >Home</a></li>
-            <li><a href="#publications">Publications</a></li> 
-			<li><a href="Projects.html">Projects</a></li> 
-			<li><a href="#service">Service</a></li> 
-			<li><a href="#teaching">Teaching</a></li> 
-		</ul>
-		
-	  </div>
-	</nav>
-	
 
-<!-- Home Section -->
-    <section  name="home" id="home" style="margin-top:100px">
-        <div class="container">
-            <div align="left" class="col-md-3">
-                <a target="_blank" href="images/portrait.jpg">
-				<img id="mobile-img" src="images/portrait.jpg" width="240" border="0" height="240" alt=""></a>
+		<div class="w3-col m9 w3-padding-large">
+			<h2 class="w3-center">Hualie Jiang</h2><br>
+			<p class="w3-justify" style="width:100%;border:0px;border-spacing:10px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:666px;font-size:20px">
+				I am a postdoctoral fellow at <a rel='nofollow' target='_blank' <a rel='nofollow' target='_blank' href="http://english.siat.cas.cn/">Shenzhen Institutes of Advanced Technology</a>, <a rel='nofollow' target='_blank' href="http://english.cas.cn/">Chinese Academy of Sciences</a>. I finished the Ph.D. at the <a rel='nofollow' target='_blank' href="https://www.cuhk.edu.cn/en">Chinese University of Hong Kong (Shenzhen)</a> on 2021. I am working on monocular depth estimation, panoramic perception, and computer vision, etc. 
+			</p>
+			<p class="w3-center" style="font-size:20px">
+				&#183 <a href="mailto:hl.jiang@siat.ac.cn">Email</a> &#183
+				<a href="https://scholar.google.com/citations?user=kKBsyGAAAAAJ">Google Scholar</a> &#183
+			</p>
+		</div>
+	</div>
+</div>
+ 
+<hr>
+
+<!-- News Section -->
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="news">
+	<div class="container lead">
+			<div style="text-align: left" class="col-md-12">
+                <h2>News</h2>
+					<ul style="list-style-type:disc; font-size:18px">
+						<p><li> 09/2021, I moved to SIAT on Teachers' Day.</li></p>
+						<p><li> 08/2021, one paper has been accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361">IEEE Sens. J</a>.</li></p>
+						<p><li> 08/2021, our team CIE Ranks 1st on <a rel='nofollow' target='_blank' href="https://github.com/UncleMEDM/CAD-CG-2021-competition">Depth Estimation competition</a> of <a rel='nofollow' target='_blank' href="http://cs.dlut.edu.cn/CADCG2021/CADCG2021dhss.htm">CCF CAD&CG 2021</a>.</li></p>
+					</ul>
             </div>
-			
-            <div align="left" class="col-md-5">
-                <h2>Hualie Jiang
-                    <!-- <h5><i>PhD. Candidate</i></h5> -->
-                </h2>
-                    
-                <h4>PhD. Candidate<br>
-                <a target="_blank" href="https://www.cuhk.edu.cn/">The Chinese University of Hong Kong, Shenzhen</a><br>
-                <!--Tel/Fax: <a href="tel:8612345678900">+86-12345678900</a><br/> -->
-                Email:<a href="mailto:hualiejiang@link.cuhk.edu.cn">hualiejiang at link.cuhk.edu.cn</a><br>
-				Address: 2001 Longxiang Blvd., Longgang District, Shenzhen, Guangdong, China 
-				</h4>
-                <h4><i>Research Interests: Computer Vision, 3D Reconstruction, Depth Estimation</i> <br></h4>
-				<h4><i>(<a target='_blank' href="https://scholar.google.com.hk/citations?user=kKBsyGAAAAAJ&hl=zh-CN">Google Scholar</a>)</i> <br></h4>
-				
-            </div>
-                
-        </div>
-    </section>	
+    </div>
+</div>
 
-<!-- Home Section -->
-    <section  name="biography" id="biography" style="margin-top:10px">
-        <div class="container lead">
-			<div style="text-align: left; margin-top:30px" class="col-md-12">
-                <h2>Biography</h2>
-				<p align="justify"> Hualie Jiang is currently a Ph.D. Candidate at <a rel='nofollow' target='_blank' href="https://www.cuhk.edu.cn/">CUHKSZ</a> advised by Prof. <a rel='nofollow' target='_blank' href="https://myweb.cuhk.edu.cn/ruihuang">Rui Huang</a>. In the second half of 2020, he interned at Alibaba Cloud A.I. Labs, mentored by Dr. <a rel='nofollow' target='_blank' href="https://scholar.google.com/citations?user=vNCnDiMAAAAJ&hl=en">Siyu Zhu</a> and Dr. <a rel='nofollow' target='_blank' href="https://scholar.google.com/citations?user=GHOQKCwAAAAJ&hl=en">Zilong Dong</a>. He obtained an M.S. degree in <i> Pattern Recognition and Intelligent Systems </i> from <a rel='nofollow' target='_blank' href='http://english.ucas.ac.cn/'>University of Chinese Academy of Sciences</a> in 2017 by spending one-year taking courses at campus and two years on research advised by Prof. <a rel='nofollow' target='_blank' href="http://sourcedb.siat.cas.cn/yw/zjrc/201103/t20110302_3078034.html">Zhan Song</a> at <a rel='nofollow' target='_blank' href="http://english.siat.cas.cn/">Shenzhen Institutes of Advanced Technology</a>, <a rel='nofollow' target='_blank' href="http://english.cas.cn/">Chinese Academy of Sciences</a>. He received a B.S. degree in Electronic <i> Information Science and Technology </i> from <a rel='nofollow' target='_blank' href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> in 2014.
-            </div>
-        </div>
-    </section>	
+<hr>
 
-
-	
-
-<!-- Publications Section -->
-    <section  name="publications" id="publications" style="margin-top:10px">
-        <div class="container lead">
-			<div style="text-align: left; margin-top:30px" class="col-md-12">
-                <h2>Publications</h2>
+<!-- Research Section -->
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="research">
+	<div class="w3-container w3-center">
+		<div style="text-align: left" class="col-md-12">
+            <h2>Research</h2>
+			<h3>Journal Papers</h3>
+			<div><font size="4"></font></div><div><font size="4">
+				<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'><tbody>
+					<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/object.png'><img width='100' src='images/cuhksz/object.png' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>Unsupervised Monocular Depth Perception: Focusing on Moving Objects </b><br/> <b>Hualie Jiang</b>, Laiyan Ding, Zhenglong Sun and Rui Huang<br/> IEEE Sensors Journal, 2021. <br/> <a target='_blank' href='https://arxiv.org/abs/2108.13062'>pdf</a>, <a href="javascript:toggle_visibility('jiang_object')">bibtex</a>, <a target='_blank' href='https://github.com/HalleyJiang/DiPE'>code</a>
+					<pre id="jiang_object" xml:space="preserve" style="display: none; font-size: 12px">
+@article{jiang2021unsupervised,
+	  title={Unsupervised Monocular Depth Perception: Focusing on Moving Objects},
+	  author={Jiang, Hualie and Ding, Laiyan and Sun, Zhenglong and Huang, Rui},
+	  journal={IEEE Sensors Journal},
+	  year={2021},
+	  publisher={IEEE}
+}</pre>
+					</td></tr>
 					
-					<h3>2021</h3>
-					<div><font size="4"></font></div><div><font size="4">
-					<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
-					<tbody>
-						<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/unifuse.png'><img width='100' src='images/cuhksz/unifuse.png' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>UniFuse: Unidirectional Fusion for 360 Panorama Depth Estimation </b><br/> <b>Hualie Jiang</b>, Zhe Sheng, Siyu Zhu, Zilong, Dong and Rui Huang<br/> accepted by IEEE Robotics and Automation Letters, 2021. <br/> <a target='_blank' href='https://arxiv.org/abs/2102.03550'>arXiv</a>, <a href="javascript:toggle_visibility('jiang_dipe')">Bibtex</a>, <a target='_blank' href='https://youtu.be/9vm9OMksvrc'>Demo</a>, <a target='_blank' href='https://github.com/alibaba/UniFuse-Unidirectional-Fusion'>Code</a>
-						<pre id="jiang_dipe" xml:space="preserve" style="display: none; font-size: 12px">
+					<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/unifuse.png'><img width='100' src='images/cuhksz/unifuse.png' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>UniFuse: Unidirectional Fusion for 360 Panorama Depth Estimation </b><br/> <b>Hualie Jiang</b>, Zhe Sheng, Siyu Zhu, Zilong, Dong and Rui Huang<br/> IEEE Robotics and Automation Letters, 2021. <br/> <a target='_blank' href='https://arxiv.org/abs/2102.03550'>pdf</a>, <a href="javascript:toggle_visibility('jiang_unifuse')">bibtex</a>, <a target='_blank' href='https://youtu.be/9vm9OMksvrc'>demo</a>, <a target='_blank' href='https://github.com/HalleyJiang/UniFuse-Unidirectional-Fusion'>code</a>
+					<pre id="jiang_unifuse" xml:space="preserve" style="display: none; font-size: 12px">
 @article{jiang2021unifuse,
       title={UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation}, 
       author={Hualie Jiang and Zhe Sheng and Siyu Zhu and Zilong Dong and Rui Huang},
@@ -107,70 +132,9 @@
 	  year={2021},
 	  publisher={IEEE}
 }</pre>
-						</td></tr>
-					</tbody></table>
+					</td></tr>
 					
-					<h3>2020</h3>
-					<div><font size="4"></font></div><div><font size="4">
-					<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
-					<tbody>
-						<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/dipe.jpg'><img width='100' src='images/cuhksz/dipe.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos</b><br/> <b>Hualie Jiang</b>, Laiyan Ding, Zhenglong Sun and Rui Huang<br/> In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020. <br/> <a target='_blank' href='https://arxiv.org/abs/2003.01360'>arXiv</a>, <a href="javascript:toggle_visibility('jiang_dipe')">Bibtex</a>, <a target='_blank' href='https://www.youtube.com/watch?v=UH8f-WkxVmU'>Demo</a>, <a target='_blank' href='https://github.com/HalleyJiang/DiPE'>Code</a>
-						<pre id="jiang_dipe" xml:space="preserve" style="display: none; font-size: 12px">
-@inproceedings{jiang2020dipe,
-  title={DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos},
-  author={Jiang, Hualie and Ding, Laiyan and Sun, Zhenglong and Huang, Rui},
-  booktitle={In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2020}
-}</pre>
-						</td></tr>
-					</tbody></table>
-
-					
-				<h3>2019</h3>
-				<div><font size="4"></font></div><div><font size="4">
-					<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
-					<tbody>
-						<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/cuhksz/hqmde.jpg'><img width='100' src='images/cuhksz/hqmde.jpg' height='70' border='0'/></a></td> <td style='width:1200px;height:79px'><b>High Quality Monocular Depth Estimation via A Multi-Scale Network and A Detail-Preserving Objective</b><br/> <b>Hualie Jiang</b> and Rui Huang<br/> In IEEE International Conference on Image Processing (ICIP), 2019. <br/> <a target='_blank' href='https://ieeexplore.ieee.org/document/8803168'>IEEE</a>, <a href="javascript:toggle_visibility('jiang_high')">Bibtex</a>, <a target='_blank' href='https://github.com/HalleyJiang/HQMDE'>Code</a>
-						<pre id="jiang_high" xml:space="preserve" style="display: none; font-size: 12px">
-@inproceedings{jiang2019high,
-  title={High Quality Monocular Depth Estimation Via A Multi-Scale Network And A Detail-Preserving Objective},
-  author={Jiang, Hualie and Huang, Rui},
-  booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
-  pages={1920--1924},
-  year={2019},
-  organization={IEEE}
-}</pre>
-						</td></tr>
-					
-					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/cuhksz/hierbincls.png'><img width='100' src='images/cuhksz/hierbincls.png' height='80' border='0'/></a></td> <td style='width:1200px;height:79px'><b>Hierarchical Binary Classification for Monocular Depth Estimation</b><br/> <b>Hualie Jiang</b> and Rui Huang<br/> In  IEEE International Conference on Robotics and Biomimetics (ROBIO), 2019. <br/> <a target='_blank' href='https://ieeexplore.ieee.org/document/8961430'>IEEE</a>, <a href="javascript:toggle_visibility('jiang_hier')">Bibtex</a>
-						<pre id="jiang_hier" xml:space="preserve" style="display: none; font-size: 12px">
-@inproceedings{jiang2019hierarchical,
-  title={Hierarchical Binary Classification for Monocular Depth Estimation},
-  author={Jiang, Hualie and Huang, Rui},
-  booktitle={2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
-  pages={1975--1980},
-  year={2019},
-  organization={IEEE}
-}</pre>
-					</tbody></table>
-			
-			
-			<h3>2017 and Before</h3>
-				<div><font size="4"></font></div><div><font size="4">
-					<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
-					<tbody>
-					
-					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/doll.gif'><img width='100' src='images/siat/doll.gif' height='70' border='0'/></a></td> <td style='width:1200px;height:79px'><b>An Automatic 3D Textured Model Building Method Using Stripe Structured Light System</b><br/> <b>Hualie Jiang</b>, Yuping Ye, Zhan Song, Suming Tang and Yuming Dong<br/> In International Conference on Computer Vision Systems (ICVS), 2017. <br/> <a target='_blank' href='https://link.springer.com/chapter/10.1007/978-3-319-68345-4_54'>Springer</a>, <a href="javascript:toggle_visibility('jiang_3Dmodel')">Bibtex</a>, <a href="Projects.html#3dModel">Project</a>
-						<pre id="jiang_3Dmodel" xml:space="preserve" style="display: none; font-size: 12px">
-@inproceedings{jiang2017automatic,
-  title={An Automatic 3D Textured Model Building Method Using Stripe Structured Light System},
-  author={Jiang, Hualie and Ye, Yuping and Song, Zhan and Tang, Suming and Dong, Yuming},
-  booktitle={International Conference on Computer Vision Systems},
-  pages={615--625},
-  year={2017},
-  organization={Springer}
-}</pre>
-						<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/specular.jpg'><img width='100' src='images/siat/specular.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>A High Dynamic Range Structured Light Means for the 3D Measurement of Specular Surface</b><br/> Zhan Song, <b>Hualie Jiang</b>, Haibo Lin and Suming Tang<br/> In Optics and Lasers in Engineering, 2017. <br/> <a target='_blank' href='https://www.sciencedirect.com/science/article/abs/pii/S0143816617303287'>Elsevier</a>, <a href="javascript:toggle_visibility('song_specular')">Bibtex</a>
+					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/specular.jpg'><img width='100' src='images/siat/specular.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>A High Dynamic Range Structured Light Means for the 3D Measurement of Specular Surface</b><br/> Zhan Song, <b>Hualie Jiang</b>, Haibo Lin and Suming Tang<br/> In Optics and Lasers in Engineering, 2017. <br/> <a target='_blank' href='https://drive.google.com/file/d/1P1TjreeSCw94YWms8WeiGeonebC069Yb'>pdf</a>, <a href="javascript:toggle_visibility('song_specular')">bibtex</a>
 						<pre id="song_specular" xml:space="preserve" style="display: none; font-size: 12px">
 @article{song2017high,
   title={A high dynamic range structured light means for the 3D measurement of specular surface},
@@ -181,23 +145,62 @@
   year={2017},
   publisher={Elsevier}
 }</pre>
-						</td></tr>
+					</td></tr>
+	
+				</tbody></table>
+			</div>
+			
+			<h3>Conference Papers</h3>
+			<div><font size="4"></font></div><div><font size="4">
+				<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'><tbody>
 					
-					
-					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/tang_surface.jpg'><img width='100' src='images/siat/tang_surface.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>Three-dimensional Surface Reconstruction via A Robust Binary Shape-coded Structured Light Method</b><br/> Suming Tang, Xu Zhang, Zhan Song, <b>Hualie Jiang</b> and Lei Nie<br/> In  Optical Engineering, 2017. <br/> <a target='_blank' href='https://www.spiedigitallibrary.org/journals/optical-engineering/volume-56/issue-01/014102/Three-dimensional-surface-reconstruction-via-a-robust-binary-shape-coded/10.1117/1.OE.56.1.014102.full?SSO=1'>SPIE</a>, <a href="javascript:toggle_visibility('tang_surface')">Bibtex</a>
-						<pre id="tang_surface" xml:space="preserve" style="display: none; font-size: 12px">
-@article{tang2017three,
-  title={Three-dimensional surface reconstruction via a robust binary shape-coded structured light method},
-  author={Tang, Suming and Zhang, Xu and Song, Zhan and Jiang, Hualie and Nie, Lei},
-  journal={Optical Engineering},
-  volume={56},
-  number={1},
-  pages={014102},
-  year={2017},
-  publisher={International Society for Optics and Photonics}
+					<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/dipe.jpg'><img width='100' src='images/cuhksz/dipe.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos</b><br/> <b>Hualie Jiang</b>, Laiyan Ding, Zhenglong Sun and Rui Huang<br/> In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020. <br/> <a target='_blank' href='https://arxiv.org/abs/2003.01360'>pdf</a>, <a href="javascript:toggle_visibility('jiang_dipe')">bibtex</a>, <a target='_blank' href='https://www.youtube.com/watch?v=UH8f-WkxVmU'>demo</a>, <a target='_blank' href='https://github.com/HalleyJiang/DiPE'>code</a>
+						<pre id="jiang_dipe" xml:space="preserve" style="display: none; font-size: 12px">
+@inproceedings{jiang2020dipe,
+  title={DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos},
+  author={Jiang, Hualie and Ding, Laiyan and Sun, Zhenglong and Huang, Rui},
+  booktitle={In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2020}
 }</pre>
-					
-					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/grid.jpg'><img width='100' src='images/siat/grid.jpg' height='85' border='0'/></a></td> <td style='width:1200px;height:79px'><b>A Robust Feature Detection Algorithm for the Binary Encoded Single- Shot Structured Light System</b><br/> <b>Hualie Jiang</b> and Zhan Song<br/> IEEE International Conference on Information and Automation (ICIA), 2016. <br/> <a target='_blank' href='https://ieeexplore.ieee.org/document/7831833'>IEEE</a>, <a href="javascript:toggle_visibility('jiang_feature')">Bibtex</a> (<b>Best Paper Finalist</b>)
+
+					</td></tr>
+					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/cuhksz/hqmde.jpg'><img width='100' src='images/cuhksz/hqmde.jpg' height='70' border='0'/></a></td> <td style='width:1200px;height:79px'><b>High Quality Monocular Depth Estimation via A Multi-Scale Network and A Detail-Preserving Objective</b><br/> <b>Hualie Jiang</b> and Rui Huang<br/> In IEEE International Conference on Image Processing (ICIP), 2019. <br/> <a target='_blank' href='https://drive.google.com/file/d/1WiAuHWIII830K4yRiCH4YW8h-6LIjIQm'>pdf</a>, <a href="javascript:toggle_visibility('jiang_high')">bibtex</a>, <a target='_blank' href='https://github.com/HalleyJiang/HQMDE'>code</a>
+						<pre id="jiang_high" xml:space="preserve" style="display: none; font-size: 12px">
+@inproceedings{jiang2019high,
+  title={High Quality Monocular Depth Estimation Via A Multi-Scale Network And A Detail-Preserving Objective},
+  author={Jiang, Hualie and Huang, Rui},
+  booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+  pages={1920--1924},
+  year={2019},
+  organization={IEEE}
+}</pre>
+					</td></tr>
+						
+					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/cuhksz/hierbincls.png'><img width='100' src='images/cuhksz/hierbincls.png' height='80' border='0'/></a></td> <td style='width:1200px;height:79px'><b>Hierarchical Binary Classification for Monocular Depth Estimation</b><br/> <b>Hualie Jiang</b> and Rui Huang<br/> In IEEE International Conference on Robotics and Biomimetics (ROBIO), 2019. <br/> <a target='_blank' href='https://drive.google.com/file/d/1rcmgDdHP2j1SlV8Q0RFDVKATVaUV-L2z'>pdf</a>, <a href="javascript:toggle_visibility('jiang_hier')">bibtex</a>
+						<pre id="jiang_hier" xml:space="preserve" style="display: none; font-size: 12px">
+@inproceedings{jiang2019hierarchical,
+  title={Hierarchical Binary Classification for Monocular Depth Estimation},
+  author={Jiang, Hualie and Huang, Rui},
+  booktitle={2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  pages={1975--1980},
+  year={2019},
+  organization={IEEE}
+}</pre>
+					</td></tr>
+						
+					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/apple.jpg'><img width='100' src='images/siat/apple.jpg' height='90' border='0'/></a></td> <td style='width:1200px;height:79px'><b>An Automatic 3D Textured Model Building Method Using Stripe Structured Light System</b><br/> <b>Hualie Jiang</b>, Yuping Ye, Zhan Song, Suming Tang and Yuming Dong<br/> In International Conference on Computer Vision Systems (ICVS), 2017. <br/> <a target='_blank' href='https://drive.google.com/file/d/1mJU8U87MTcjVSlXM5Ui14ksf_if-fTal'>pdf</a>, <a href="javascript:toggle_visibility('jiang_3Dmodel')">bibtex</a>
+					<pre id="jiang_3Dmodel" xml:space="preserve" style="display: none; font-size: 12px">
+@inproceedings{jiang2017automatic,
+  title={An Automatic 3D Textured Model Building Method Using Stripe Structured Light System},
+  author={Jiang, Hualie and Ye, Yuping and Song, Zhan and Tang, Suming and Dong, Yuming},
+  booktitle={International Conference on Computer Vision Systems},
+  pages={615--625},
+  year={2017},
+  organization={Springer}
+}</pre>
+					</td></tr>
+
+					<tr><td style='width:101px;height:79px'> <a target='_blank' imageanchor='1' href='images/siat/grid.jpg'><img width='100' src='images/siat/grid.jpg' height='85' border='0'/></a></td> <td style='width:1200px;height:79px'><b>A Robust Feature Detection Algorithm for the Binary Encoded Single- Shot Structured Light System</b><br/> <b>Hualie Jiang</b> and Zhan Song<br/> IEEE International Conference on Information and Automation (ICIA), 2016. <br/> <a target='_blank' href='https://drive.google.com/file/d/1tC8V6ZTKl7qOIBIsiBrOpMEtyiAGgbD8/view'>pdf</a>, <a href="javascript:toggle_visibility('jiang_feature')">bibtex</a> (<b>Best Paper Finalist</b>)
 						<pre id="jiang_feature" xml:space="preserve" style="display: none; font-size: 12px">
 @inproceedings{jiang2016robust,
   title={A robust feature detection algorithm for the binary encoded single-shot structured light system},
@@ -207,50 +210,64 @@
   year={2016},
   organization={IEEE}
 }</pre>
-					</tbody></table>
-            </div>
+					</td></tr>
+						
+				</tbody></table>
+			</div>
         </div>
-    </section>	
+    </div>
+</div>
 
-	
-	
+<hr>
+
 <!-- Service Section -->
-    <section  name="service" id="service" style="margin-top:10px">
-        <div class="container lead">
-			<div style="text-align: left; margin-top:30px" class="col-md-12">
-                <h2>Academic Service</h2>
-					<div><font size="5">Reviewer</font></div>
-						<ul style="list-style-type:disc;">
-							<li>IEEE International Conference on Robotics and Automation, 2021</li>
-							<li>IEEE/RSJ International Conference on Intelligent Robots and Systems, 2020</li>
-							<li>IEEE International Conference on Information and Automation, 2016</li>
-							<li>IEEE Transactions on Industrial Informatics</li>
-						</ul>
-            </div>
-        </div>
-    </section>	
-	
-	
-<!-- Teaching Section -->
-    <section  name="teaching" id="teaching" style="margin-top:10px">
-        <div class="container lead">
-			<div style="text-align: left; margin-top:30px" class="col-md-12">
-                <h2>Teaching</h2>
-					<ul style="list-style-type:disc;">
-						<li>Teaching Assistant for CSC3180 Fundamentals of Artificial Intelligence, 2021 Spring, CUHKSZ</li>
-						<li>Teaching Assistant for CSC3180 Fundamentals of Artificial Intelligence, 2020 Spring, CUHKSZ</li>
-						<li>Teaching Assistant for CIE6004 Image Processing and Computer Vision, 2019 Fall, CUHKSZ</li>
-						<li>Teaching Assistant for CSC3180 Fundamentals of Artificial Intelligence, 2019 Spring, CUHKSZ</li>
-						<li>Teaching Assistant and Lecturing 3D for CIE6004 Image Processing and Computer Vision, 2018 Fall, CUHKSZ</li>
-						<li>Teaching Assistant for CIE6010 Optimization Theory and Algorithms, 2018 Fall, CUHKSZ</li>
-						<li>Teaching Assistant for CSC3180 Fundamentals of Artificial Intelligence, 2018 Spring, CUHKSZ</li>
-						<li>Teaching Assistant and Lecturing 3D for CIE6004 Image Processing and Computer Vision, 2017 Fall, CUHKSZ</li>
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="service">
+	<div class="container lead">
+			<div style="text-align: left" class="col-md-12">
+                <h2>Service</h2>
+					<ul style="list-style-type:disc; font-size:20px">
+						<p><li> Journal Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424">IEEE TII</a>, <a href="https://www.journals.elsevier.com/computers-and-graphics">Comput Graph</a>, <a href="https://www.journals.elsevier.com/journal-of-visual-communication-and-image-representation">J Vis Commun Image Represent</a>, <a href="https://www.journals.elsevier.com/expert-systems-with-applications">Expert Syst. Appl.</a>, etc.</p>
+						<p><li> Conference Reviewer of IROS 2020, ICRA 2021, SIGGRAPH Asia 2021, etc.</p>
 					</ul>
             </div>
-        </div>
-    </section>	
+    </div>
+</div>
 
-    
+<hr>
+
+<!-- Service Section -->
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="teaching">
+	<div class="container lead">
+			<div style="text-align: left" class="col-md-12">
+                <h2>Teaching</h2>
+				<h3>Teaching Assistant at CUHK-Shenzhen</h3>
+					<ul style="list-style-type:disc; font-size:20px">
+						<p><li> 3 Semesters for CIE6004 Image Processing and Computer Vision lectured by Prof. <a rel='nofollow' target='_blank' href="https://myweb.cuhk.edu.cn/ruihuang">Rui Huang.</a></p>
+						<p><li> 1 Semester for CIE6010 Optimization Theory and Algorithms lectured by Prof. <a rel='nofollow' target='_blank' href="https://sds.cuhk.edu.cn/en/teacher/57">Yin Zhang.</a></p>
+						<p><li> 4 Semesters for CSC3180 Fundamentals of Artificial Intelligence lectured by Prof. <a rel='nofollow' target='_blank' href="https://sds.cuhk.edu.cn/en/teacher/315">David Zhang.</a></p>
+					</ul>
+            </div>
+    </div>
+</div>
+
+<div class="w3-light-grey w3-center" style="margin-top:100px">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</div>
+
+
+
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+
 </body>
-
 </html>
