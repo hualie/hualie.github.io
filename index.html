@@ -47,9 +47,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 	<div class="w3-right w3-hide-small">
 		<a href="#" class="w3-bar-item w3-button">About</a>
 		<a href="#news" class="w3-bar-item w3-button">News</a>
-		<a href="#research" class="w3-bar-item w3-button">Research</a>
+		<a href="#research" class="w3-bar-item w3-button">Publications</a>
+		<a href="#teaching" class="w3-bar-item w3-button">Challenges</a>
 		<a href="#service" class="w3-bar-item w3-button">Service</a>
-		<a href="#teaching" class="w3-bar-item w3-button">Teaching</a>
 	</div>
 	<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
 </div>
@@ -76,7 +76,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 		<div class="w3-col m9 w3-padding-large">
 			<h2 class="w3-center">Hualie Jiang</h2><br>
 			<p class="w3-justify" style="width:100%;border:0px;border-spacing:10px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:666px;font-size:20px">
-				Hualie is currently a computer vision enginner at <a rel='nofollow' target='_blank' href="https://www.insta360.com/">Insta360</a>, working on monocular/binocular depth estimation, panoramic perception, and  etc.  He obtained my PhD degree from the <a rel='nofollow' target='_blank' href="https://www.cuhk.edu.cn/en">Chinese University of Hong Kong (Shenzhen)</a> in 2021. He once had interned at Alibaba Cloud AI Lab and worked at Sensetime. 
+				Hualie is currently a senior enginner at <a rel='nofollow' target='_blank' href="https://www.insta360.com/">Insta360</a>, working on monocular/binocular depth estimation, panoramic perception, and  etc.  He obtained my PhD degree from the <a rel='nofollow' target='_blank' href="https://www.cuhk.edu.cn/en">Chinese University of Hong Kong (Shenzhen)</a> in 2021. He once had interned at Alibaba Cloud AI Lab and worked at Sensetime. 
 			</p>
 			<p class="w3-center" style="font-size:20px">
 				&#183 <a href="mailto:hualiejiang@link.cuhk.edu.cn">Email</a> &#183
@@ -85,7 +85,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 		</div>
 	</div>
 </div>
- 
+
 <hr>
 
 <!-- News Section -->
@@ -94,8 +94,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 			<div style="text-align: left" class="col-md-12">
                 <h2>News</h2>
 					<ul style="list-style-type:disc; font-size:18px">
-						<p><li> 10/2022, ranking at 2nd place in the stereo track of <a rel='nofollow' target='_blank' href="http://www.robustvision.net/leaderboard.php">Robust Vision Challenge 2022.</a></li></p>
-						<p><li> 08/2022, attending <a rel='nofollow' target='_blank' href="http://cs.dlut.edu.cn/CADCG2021/CADCG2021sy.htm">CCF CAD&CG 2021+2022</a>, and giving a talk as the winner of Depth Estimation competition.</li></p>
+						<p><li> 01/2024, <a rel='nofollow' target='_blank' href="https://ieeexplore.ieee.org/document/10412145">RomniStereo</a> is accepted by IEEE RA-L.</li></p>
 					</ul>
             </div>
     </div>
@@ -103,14 +102,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <hr>
 
+
 <!-- Research Section -->
 <div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="research">
 	<div class="w3-container w3-center">
 		<div style="text-align: left" class="col-md-12">
-            <h2>Research</h2>
+            <h2>Publications</h2>
 			<h3>Journal Papers</h3>
 			<div><font size="4"></font></div><div><font size="4">
 				<table style='border-width:1px;border-color:rgb(200,200,200);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'><tbody>
+
+					<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/insta360/romnistereo.jpg'><img width='100' src='images/insta360/romnistereo.jpg' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>RomniStereo: Recurrent Omnidirectional Stereo Matching </b><br/> <b>Hualie Jiang</b>, Rui Xu, Minglang Tan and Wenjie Jiang<br/> IEEE Robotics and Automation Letters, 2024. <br/> <a target='_blank' href='https://arxiv.org/abs/2401.04345'>pdf</a>, <a href="javascript:toggle_visibility('jiang_romnistereo')">bibtex</a>, <a target='_blank' href='https://github.com/HalleyJiang/RomniStereo'>code</a>
+					<pre id="jiang_romnistereo" xml:space="preserve" style="display: none; font-size: 12px">
+@inproceedings{jiang2024romnistereo,
+  title={RomniStereo: Recurrent Omnidirectional Stereo Matching},
+  author={Jiang, Hualie and Xu, Rui and Tan, Minglang and Jiang, Wenjie},
+  booktitle={IEEE Robotics and Automation Letters},
+  year={2024}
+}
+}</pre>
+					</td></tr>
+
 					<tr><td style='width:101px;height:79px'> <a  target='_blank' imageanchor='1' href='images/cuhksz/object.png'><img width='100' src='images/cuhksz/object.png' height='60' border='0'/></a></td> <td style='width:1200px;height:79px'><b>Unsupervised Monocular Depth Perception: Focusing on Moving Objects </b><br/> <b>Hualie Jiang</b>, Laiyan Ding, Zhenglong Sun and Rui Huang<br/> IEEE Sensors Journal, 2021. <br/> <a target='_blank' href='https://arxiv.org/abs/2108.13062'>pdf</a>, <a href="javascript:toggle_visibility('jiang_object')">bibtex</a>, <a target='_blank' href='https://github.com/HalleyJiang/DiPE'>code</a> (<b>the Featured Article in Issue 24</b>)
 					<pre id="jiang_object" xml:space="preserve" style="display: none; font-size: 12px">
 @article{jiang2021unsupervised,
@@ -229,14 +241,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <hr>
 
-<!-- Service Section -->
-<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="service">
+
+<!-- Challenge Section -->
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="teaching">
 	<div class="container lead">
 			<div style="text-align: left" class="col-md-12">
-                <h2>Service</h2>
+                <h2>Challenges</h2>
 					<ul style="list-style-type:disc; font-size:20px">
-						<p><li> Journal Reviewer of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424">IEEE TII</a>, <a href="https://www.journals.elsevier.com/computers-and-graphics">Comput Graph</a>, <a href="https://www.journals.elsevier.com/journal-of-visual-communication-and-image-representation">J Vis Commun Image Represent</a>, <a href="https://www.journals.elsevier.com/expert-systems-with-applications">Expert Syst. Appl.</a>, etc.</p>
-						<p><li> Conference Reviewer of IROS 2020, ICRA 2021, SIGGRAPH Asia 2021, etc.</p>
+						<p><li> The runner-up in the stereo track of <a rel='nofollow' target='_blank' href="http://www.robustvision.net/leaderboard.php">Robust Vision Challenge 2022.</a></p>
+						<p><li> The winner of monocular depth estimation competition of <a rel='nofollow' target='_blank' href="http://cs.dlut.edu.cn/CADCG2021/CADCG2021sy.htm">CCF CAD&CG 2021+2022.</a></p>
 					</ul>
             </div>
     </div>
@@ -244,20 +257,34 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <hr>
 
+
 <!-- Service Section -->
-<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="teaching">
+<div class="w3-content" style="max-width:1110px;margin-top:30px;margin-bottom:50px" id="service">
 	<div class="container lead">
 			<div style="text-align: left" class="col-md-12">
-                <h2>Teaching</h2>
-				<h3>Teaching Assistant at CUHK-Shenzhen</h3>
+                <h2>Service</h2>
 					<ul style="list-style-type:disc; font-size:20px">
-						<p><li> 3 Semesters for CIE6004 Image Processing and Computer Vision lectured by Prof. <a rel='nofollow' target='_blank' href="https://myweb.cuhk.edu.cn/ruihuang">Rui Huang.</a></p>
-						<p><li> 1 Semester for CIE6010 Optimization Theory and Algorithms lectured by Prof. <a rel='nofollow' target='_blank' href="https://sds.cuhk.edu.cn/en/teacher/57">Yin Zhang.</a></p>
-						<p><li> 4 Semesters for CSC3180 Fundamentals of Artificial Intelligence lectured by Prof. <a rel='nofollow' target='_blank' href="https://sds.cuhk.edu.cn/en/teacher/315">David Zhang.</a></p>
+						<p><li> Journal Reviewer for <ul>
+									<li>ACM SIGGRAPH Asia</li>
+									<li>IEEE International Conference on Robotics and Automation</li>
+									<li>IEEE/RSJ International Conference on Intelligent Robots and Systems</li>
+									</ul></p>
+						<p><li> Conference Reviewer for  <ul>
+							    <li>International Journal of Computer Vision</li>
+									<li>IEEE Transactions on Image Processing</li>
+									<li>IEEE Transactions on Industrial Informatics</li>
+									<li>Journal of Visual Communication and Image Representation</li>
+									<li>Expert Systems with Applications</li>
+									<li>Computers&Graphics</li> <ul></p>
 					</ul>
             </div>
     </div>
 </div>
+
+<hr>
+
+
+
 
 <div class="w3-light-grey w3-center" style="margin-top:100px">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
