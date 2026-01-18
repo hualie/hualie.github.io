@@ -1,0 +1,103 @@
+main:
+
+
+  - title: "Depth Anything in 360°: Towards Scale Invariance in the Wild"
+    authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
+    conference_short: Arxiv
+    #conference: 2026.
+    pdf: https://arxiv.org/pdf/2512.22819
+    code: https://github.com/Insta360-Research-Team/DA360
+    page: https://insta360-research-team.github.io/DA360/
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:W0C5S4CW3-sJ:scholar.google.com/&output=citation&scisdr=Cn3NIGJlEMfh16qlWNM:AHkA5jQAAAAAaWyjQNPjYffUR1KhU-FdN3jjcu8&scisig=AHkA5jQAAAAAaWyjQMH14ZfsaElXUiZNyTD3JDk&scisf=4&ct=citation&cd=-1
+    #notes: Oral Presentation
+    image: ./assets/img/DA360.jpg
+
+  - title: "DEFOM-Stereo: Depth Foundation Model based Stereo Matching"
+    authors: <strong>Hualie Jiang</strong>, Zhiqiang Lou, Laiyan Ding, Rui Xu, Minglang Tan, Wenjie Jiang and Rui Huang
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2501.09466
+    code: https://github.com/Insta360-Research-Team/DEFOM-Stereo
+    page: https://insta360-research-team.github.io/DEFOM-Stereo
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:TxAhJq0jWWAJ:scholar.google.com/&output=citation&scisdr=Cn3NIGJlEMfh16qkrKQ:AHkA5jQAAAAAaWyitKTVrZxJjHrQ8wsmKw5xK_k&scisig=AHkA5jQAAAAAaWyitEFFsdU9SMLimTqkdVCc0Pk&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/defomstereo.svg
+
+  - title: "CFPNet: Improving Lightweight ToF Depth Completion via Cross-zone Feature Propagation"
+    authors: Laiyan Ding, <strong>Hualie Jiang</strong>, Rui Xu and Rui Huang
+    conference_short: 3DV
+    conference: IEEE International Conference on 3D Vision <strong>(3DV)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2411.04480
+    code: https://github.com/denyingmxd/CFPNet
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:k1aIzw4yjtgJ:scholar.google.com/&output=citation&scisdr=Cn1noEcbEMfh16qjLuU:AHkA5jQAAAAAaWylNuX3m9Df37bz4qSy53Rn_eg&scisig=AHkA5jQAAAAAaWylNh1bVyJIRrD4mPaDWY_Zb3c&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/CFPNet.png
+
+  - title: "Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images"
+    authors: Laiyan Ding, <strong>Hualie Jiang</strong>, Jiwei Chen and Rui Huang
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2506.13444
+    code: https://github.com/denyingmxd/selftof
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Fg0X_TAdOZ0J:scholar.google.com/&output=citation&scisdr=Cn1nBphEEMfh16qgTtc:AHkA5jQAAAAAaWymVtfWHwX5ljIxBcRBu8Tq6_k&scisig=AHkA5jQAAAAAaWymVme89wdX2VsKPq4kK6yvhJg&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/selftof.jpg
+
+
+  - title: "Towards Cross-View-Consistent Self-Supervised Surround Depth Estimation"
+    authors: Laiyan Ding, <strong>Hualie Jiang</strong>, Jie Li, Yongquan Chen and Rui Huang
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2407.04041
+    code: https://github.com/denyingmxd/CVCDepth
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:XXQW5KDnLKEJ:scholar.google.com/&output=citation&scisdr=Cn2apsePEMfh16qhLcY:AHkA5jQAAAAAaWynNcZnQN1dBRPYL-H_bWrYcM4&scisig=AHkA5jQAAAAAaWynNQhSacr6N_v-gZcoKWXj-vQ&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/CVCDepth.jpg
+
+  - title: "RomniStereo: Recurrent Omnidirectional Stereo Matching"
+    authors: <strong>Hualie Jiang</strong>, Rui Xu, Minglang Tan and Wenjie Jiang
+    conference_short: RAL
+    conference: IEEE Robotics and Automation Letters, 2024.
+    pdf: https://arxiv.org/pdf/2401.04345
+    code: https://github.com/Insta360-Research-Team/RomniStereo
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NS0PGAi_nyAJ:scholar.google.com/&output=citation&scisdr=Cn3ax1jmEMfh16quCts:AHkA5jQAAAAAaWyoEts-8TsF4RpitWpiJj_1EyM&scisig=AHkA5jQAAAAAaWyoEusLVGx8mv4pgL_h97A-mZY&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/romnistereo.jpg
+
+  - title: "PLNet: Plane and Line Priors for Unsupervised Indoor Depth Estimation"
+    authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Junjie Hu and Rui Huang
+    conference_short: 3DV
+    conference: IEEE International Conference on 3D Vision <strong>(3DV)</strong>, 2021.
+    pdf: https://arxiv.org/pdf/2110.05839
+    code: https://github.com/HalleyJiang/PLNet
+    video: https://www.youtube.com/watch?v=bk_MdMquZpU
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:0uecS9XM_ZoJ:scholar.google.com/&output=citation&scisdr=Cn3cbqg4EMfh16q33EQ:AHkA5jQAAAAAaWyxxEQPfA_h9trZBxLblZG3Eck&scisig=AHkA5jQAAAAAaWyxxIR8F0nT4cf20kr5P_D-FnA&scisf=4&ct=citation&cd=-1
+    image: ./assets/img/plnet.jpg
+
+  - title: "UniFuse: Unidirectional Fusion for 360° Panorama Depth Estimation"
+    authors: <strong>Hualie Jiang</strong>, Zhe Sheng, Siyu Zhu, Zilong, Dong and Rui Huang
+    conference_short: RAL+ICRA
+    conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong> and <strong>ICRA</strong>, 2021.
+    pdf: https://arxiv.org/pdf/2102.03550
+    code: https://github.com/HalleyJiang/UniFuse-Unidirectional-Fusion
+    video: https://youtu.be/9vm9OMksvrc
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:JXu7rLzrQ4MJ:scholar.google.com/&output=citation&scisdr=Cn3cbqg4EMfh16q1eUM:AHkA5jQAAAAAaWyzYUMi1a4gWD1RkD-p18HMNnI&scisig=AHkA5jQAAAAAaWyzYa4GgBUPIpMb-8kPzOiICCY&scisf=4&ct=citation&cd=-1
+    #notes: Oral Presentation
+    image: ./assets/img/unifuse.png
+
+  - title: "Unsupervised Monocular Depth Perception: Focusing on Moving Objects"
+    authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
+    conference_short: Sensors
+    conference: IEEE Sensors Journal, 2021.
+    pdf: https://arxiv.org/pdf/2108.13062
+    code: https://github.com/HalleyJiang/DiPE
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:fdKKEz1VlkMJ:scholar.google.com/&output=citation&scisdr=Cn3cbqg4EMfh16qyBOc:AHkA5jQAAAAAaWy0HOeT3VKAikPZ875wbGt5gdI&scisig=AHkA5jQAAAAAaWy0HHfHFooxqFQYNtwBVXXQUQg&scisf=4&ct=citation&cd=-1
+    notes: Featured Article
+    image: ./assets/img/object.png
+
+  - title: "DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos"
+    authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2020.
+    pdf: https://arxiv.org/pdf/2003.01360
+    code: https://github.com/HalleyJiang/DiPE
+    video: https://www.youtube.com/watch?v=UH8f-WkxVmU
+    #page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:ppFMEVtUD0UJ:scholar.google.com/&output=citation&scisdr=Cn3YCHB_EMfh16qfrDU:AHkA5jQAAAAAaWyZtDU-JXXrbJ6Xgdh6jpEreB4&scisig=AHkA5jQAAAAAaWyZtOZFTIPTvMG-ngzcwtNEw48&scisf=4&ct=citation&cd=-1
+    #notes: Oral Presentation
+    image: ./assets/img/dipe.jpg
