@@ -2,7 +2,7 @@ main:
 
 
   - title: "Depth Anything in 360°: Towards Scale Invariance in the Wild"
-    authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
+    authors: <strong>Hualie Jiang</strong>, Ziyang Song, Zhiqiang Lou, Rui Xu and Minglang Tan
     conference_short: Arxiv
     #conference: 2026.
     pdf: https://arxiv.org/pdf/2512.22819
@@ -70,7 +70,7 @@ main:
     image: ./assets/img/plnet.jpg
 
   - title: "UniFuse: Unidirectional Fusion for 360° Panorama Depth Estimation"
-    authors: <strong>Hualie Jiang</strong>, Zhe Sheng, Siyu Zhu, Zilong, Dong and Rui Huang
+    authors: <strong>Hualie Jiang</strong>, Zhe Sheng, Siyu Zhu, Zilong Dong and Rui Huang
     conference_short: RAL+ICRA
     conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong> and <strong>ICRA</strong>, 2021.
     pdf: https://arxiv.org/pdf/2102.03550
