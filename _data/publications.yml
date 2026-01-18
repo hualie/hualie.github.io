@@ -87,7 +87,7 @@ main:
     pdf: https://arxiv.org/pdf/2108.13062
     code: https://github.com/HalleyJiang/DiPE
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:fdKKEz1VlkMJ:scholar.google.com/&output=citation&scisdr=Cn3cbqg4EMfh16qyBOc:AHkA5jQAAAAAaWy0HOeT3VKAikPZ875wbGt5gdI&scisig=AHkA5jQAAAAAaWy0HHfHFooxqFQYNtwBVXXQUQg&scisf=4&ct=citation&cd=-1
-    notes: Featured Article
+    notes: Featured Article (1/95)
     image: ./assets/img/object.png
 
   - title: "DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos"
