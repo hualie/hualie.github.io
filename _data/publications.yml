@@ -75,7 +75,7 @@ main:
     conference_short: RAL+ICRA
     conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong> and <strong>ICRA</strong>, 2021.
     pdf: https://arxiv.org/pdf/2102.03550
-    code: https://github.com/HalleyJiang/UniFuse-Unidirectional-Fusion
+    code: https://github.com/alibaba/UniFuse-Unidirectional-Fusion
     video: https://youtu.be/9vm9OMksvrc
     bibtex: ./assets/files/unifuse.txt
     #notes: Oral Presentation
