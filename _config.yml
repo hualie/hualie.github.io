@@ -6,7 +6,8 @@ email: jianghualie (at) insta360.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: computer vision, 3D reconstruction, Insta360
+keywords: hualie jiang, jianghulie, jiang hualie, Insta360, Antigravity
+
 description: Hualie Jiang's academic homepage.
 canonical: https://hualie.github.io
 
@@ -51,8 +52,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
   - minimal-light.gemspec

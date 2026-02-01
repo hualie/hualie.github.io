@@ -1,0 +1,7 @@
+@article{jiang2021unifuse,
+      title={UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation}, 
+      author={Hualie Jiang and Zhe Sheng and Siyu Zhu and Zilong Dong and Rui Huang},
+	  journal={IEEE Robotics and Automation Letters},
+	  year={2021},
+	  publisher={IEEE}
+}

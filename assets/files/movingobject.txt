@@ -1,0 +1,7 @@
+@article{jiang2021unsupervised,
+	  title={Unsupervised Monocular Depth Perception: Focusing on Moving Objects},
+	  author={Jiang, Hualie and Ding, Laiyan and Sun, Zhenglong and Huang, Rui},
+	  journal={IEEE Sensors Journal},
+	  year={2021},
+	  publisher={IEEE}
+}

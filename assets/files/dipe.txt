@@ -1,0 +1,6 @@
+@inproceedings{jiang2020dipe,
+  title={DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos},
+  author={Jiang, Hualie and Ding, Laiyan and Sun, Zhenglong and Huang, Rui},
+  booktitle={In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2020}
+}

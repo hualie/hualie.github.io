@@ -1,0 +1,8 @@
+@inproceedings{ding2025cfpnet,
+  title={Cfpnet: Improving lightweight tof depth completion via cross-zone feature propagation},
+  author={Ding, Laiyan and Jiang, Hualie and Xu, Rui and Huang, Rui},
+  booktitle={2025 International Conference on 3D Vision (3DV)},
+  pages={401--410},
+  year={2025},
+  organization={IEEE}
+}

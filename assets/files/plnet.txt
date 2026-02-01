@@ -1,0 +1,6 @@
+@inproceedings{jiang2021plnet,
+  title={PLNet: Plane and Line Priors for Unsupervised Indoor Depth Estimation},
+  author={Jiang, Hualie and Ding, Laiyan and Hu, Junjie and Huang, Rui},
+  booktitle={In IEEE International Conference on 3D Vision (3DV)},
+  year={2021}
+}

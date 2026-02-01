@@ -1,0 +1,7 @@
+@inproceedings{ding2025self,
+  title={Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images},
+  author={Ding, Laiyan and Jiang, Hualie and Chen, Jiwei and Huang, Rui},
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2025},
+  organization={IEEE}
+}

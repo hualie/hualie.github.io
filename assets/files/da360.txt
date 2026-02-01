@@ -1,0 +1,6 @@
+@article{jiang2025depth,
+  title={Depth Anything in $360\^{}$\backslash$circ $: Towards Scale Invariance in the Wild},
+  author={Jiang, Hualie and Song, Ziyang and Lou, Zhiqiang and Xu, Rui and Tan, Minglang},
+  journal={arXiv preprint arXiv:2512.22819},
+  year={2025}
+}
