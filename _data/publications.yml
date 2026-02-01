@@ -11,6 +11,7 @@ main:
     bibtex: ./assets/files/da360.txt
     #notes: Oral Presentation
     image: ./assets/img/DA360.jpg
+    others: '<a href="https://github.com/Insta360-Research-Team/DA360" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Insta360-Research-Team/DA360" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "DEFOM-Stereo: Depth Foundation Model based Stereo Matching"
     authors: <strong>Hualie Jiang</strong>, Zhiqiang Lou, Laiyan Ding, Rui Xu, Minglang Tan, Wenjie Jiang and Rui Huang
@@ -21,7 +22,7 @@ main:
     page: https://insta360-research-team.github.io/DEFOM-Stereo
     bibtex: ./assets/files/defom.txt
     image: ./assets/img/defomstereo.svg
-    #others: '<a href="https://github.com/Insta360-Research-Team/DEFOM-Stereo" target="_blank" rel="noopener"><strong><i style="color:#e74d3c; font-weight:600" id="githubstars_defom"></i><i style="color:#e74d3c; font-weight:600"> GitHub Stars</i></strong></a><script>githubStars("Insta360-Research-Team/DEFOM-Stereo", "githubstars_defom");</script>'
+    others: '<a href="https://github.com/Insta360-Research-Team/DEFOM-Stereo" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Insta360-Research-Team/DEFOM-Stereo" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "CFPNet: Improving Lightweight ToF Depth Completion via Cross-zone Feature Propagation"
     authors: Laiyan Ding, <strong>Hualie Jiang</strong>, Rui Xu and Rui Huang
@@ -59,6 +60,7 @@ main:
     code: https://github.com/Insta360-Research-Team/RomniStereo
     bibtex: ./assets/files/romnistereo.txt
     image: ./assets/img/romnistereo.jpg
+    others: '<a href="https://github.com/Insta360-Research-Team/RomniStereo" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/Insta360-Research-Team/RomniStereo" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "PLNet: Plane and Line Priors for Unsupervised Indoor Depth Estimation"
     authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Junjie Hu and Rui Huang
@@ -69,6 +71,7 @@ main:
     video: https://www.youtube.com/watch?v=bk_MdMquZpU
     bibtex: ./assets/files/plnet.txt
     image: ./assets/img/plnet.jpg
+    others: '<a href="https://github.com/HalleyJiang/PLNet" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/HalleyJiang/PLNet" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "UniFuse: Unidirectional Fusion for 360° Panorama Depth Estimation"
     authors: <strong>Hualie Jiang</strong>, Zhe Sheng, Siyu Zhu, Zilong Dong and Rui Huang
@@ -80,6 +83,7 @@ main:
     bibtex: ./assets/files/unifuse.txt
     #notes: Oral Presentation
     image: ./assets/img/unifuse.png
+    others: '<a href="https://github.com/alibaba/UniFuse-Unidirectional-Fusion" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/alibaba/UniFuse-Unidirectional-Fusion" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "Unsupervised Monocular Depth Perception: Focusing on Moving Objects"
     authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
@@ -90,6 +94,7 @@ main:
     bibtex: ./assets/files/movingobject.txt
     notes: Featured Article (1/95)
     image: ./assets/img/object.png
+    #others: '<a href="https://github.com/HalleyJiang/DiPE" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/HalleyJiang/DiPE" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
 
   - title: "DiPE: Deeper into Photometric Errors for Unsupervised Learning of Depth and Ego-motion from Monocular Videos"
     authors: <strong>Hualie Jiang</strong>, Laiyan Ding, Zhenglong Sun and Rui Huang
@@ -102,3 +107,4 @@ main:
     bibtex: ./assets/files/dipe.txt
     #notes: Oral Presentation
     image: ./assets/img/dipe.jpg
+    others: '<a href="https://github.com/HalleyJiang/DiPE" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/HalleyJiang/DiPE" alt="GitHub stars" style="height: 20px; vertical-align: middle;"></a>'
