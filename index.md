@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am a senior research engineer at <a rel='nofollow' target='_blank' href="https://www.insta360.com/">Insta360</a>/<a rel='nofollow' target='_blank' href="https://www.antigravity.tech/">Antigravity</a>, where I work on 3D Vision, with a focus on visual depth estimation. I obtained a PhD degree from the <a rel='nofollow' target='_blank' href="https://www.cuhk.edu.cn/en">CUHK (Shenzhen)</a> in 2021, supervised by <a rel='nofollow' target='_blank' href="https://scholar.google.com/citations?user=t8UduWwAAAAJ">Prof. Rui Huang</a>. 
-During late 2020, I interned at Alibaba Cloud AI Lab mentored by <a rel='nofollow' target='_blank' href="https://scholar.google.com/citations?user=GHOQKCwAAAAJ&hl=en">Dr. Zilong Dong</a>, where I conducted research on 360° depth estimation. 
+During late 2020, I interned at Alibaba Cloud AI Lab mentored by <a rel='nofollow' target='_blank' href="https://scholar.google.com/citations?user=GHOQKCwAAAAJ&hl=en">Dr. Zilong Dong</a>, where I conducted research on 360° depth estimation. Earlier, I studied active 3D construction using structured light with <a rel='nofollow' target='_blank' href="https://openreview.net/profile?id=~zhan_song3">Prof. Zhan Song</a> at SIAT, CAS. 
 
 
 ## Research Interests
