@@ -1,0 +1,6 @@
+@article{jiang2026averages,
+  title={What the Averages Hide: Monocular Metric Depth Models Still Fail in Everyday Scenes, Mostly on Scale},
+  author={Jiang, Hualie and Luo, Yujie and Song, Ziyang and Li, Ximeng and Lou, Zhiqiang and Xu, Rui},
+  journal={arXiv preprint arXiv:2611.20518},
+  year={2026}
+}

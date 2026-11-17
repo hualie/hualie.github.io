@@ -1,6 +1,17 @@
 main:
 
 
+  - title: "What the Averages Hide: Monocular Metric Depth Models Still Fail in Everyday Scenes, Mostly on Scale"
+    authors: <strong>Hualie Jiang</strong>, Yujie Luo, Ziyang Song, Ximeng Li, Zhiqiang Lou and Rui Xu
+    conference_short: Arxiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2611.20518
+    code: https://github.com/antigravity-tech/DIMED
+    data: https://huggingface.co/datasets/hljiang/DIMED
+    page: https://antigravity-tech.github.io/DIMED/
+    bibtex: ./assets/files/dimed.txt
+    image: ./assets/img/DIMED.jpg
+
   - title: "Depth Anything in 360°: Towards Scale Invariance in the Wild"
     authors: <strong>Hualie Jiang</strong>, Ziyang Song, Zhiqiang Lou, Rui Xu and Minglang Tan
     conference_short: Arxiv
